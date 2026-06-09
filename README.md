@@ -7,3 +7,7 @@ or
 
 `git add [specific file/folder]`
 
+### commit
+
+`git commit -m "[pesan]"`
+
