@@ -1,0 +1,129 @@
+{
+  "info": {
+    "_postman_id": "d44809ce-8b62-4e61-bff1-16b425e17b4b",
+    "name": "Minibootcamp",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+    "_exporter_id": "26123070"
+  },
+  "item": [
+    {
+      "name": "POST Bank Account Data Request",
+      "event": [
+        {
+          "listen": "test",
+          "script": {
+            "exec": [
+              "pm.test(\"Status code is 200 and response body is COMPLETED\", function () {\r",
+              "    pm.response.to.have.status(200);\r",
+              "\r",
+              "    var jsonData = pm.response.json();\r",
+              "    pm.expect(jsonData.status).to.eql(\"COMPLETED\");\r",
+              "});\r",
+              "\r",
+              ""
+            ],
+            "type": "text/javascript",
+            "packages": {},
+            "requests": {}
+          }
+        }
+      ],
+      "request": {
+        "auth": {
+          "type": "basic",
+          "basic": [
+            {
+              "key": "username",
+              "value": "iluma_development_FX4f0M5sxDgk5qFyZnk60ZengAfA9o31x3ecd29vihjc4VhyJ8FclZhHjjw",
+              "type": "string"
+            }
+          ]
+        },
+        "method": "POST",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n\"bank_account_number\": \"12345670\",\n\"bank_code\": \"BCA\",\n\"given_name\": \"FIRA DIYANKA\",\n\"surname\": \"FIRA DIYANKA\",\n\"reference_id\": \"testing123-456\"\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "https://api.iluma.ai/v1.1/identity/bank_account_data_requests",
+          "protocol": "https",
+          "host": [
+            "api",
+            "iluma",
+            "ai"
+          ],
+          "path": [
+            "v1.1",
+            "identity",
+            "bank_account_data_requests"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "GET Bank Account Data",
+      "event": [
+        {
+          "listen": "test",
+          "script": {
+            "exec": [
+              "pm.test(\"Status code is 200 and response body is COMPLETED\", function () {\r",
+              "    pm.response.to.have.status(200);\r",
+              "\r",
+              "    var jsonData = pm.response.json();\r",
+              "    pm.expect(jsonData.status).to.eql(\"COMPLETED\");\r",
+              "});\r",
+              "\r",
+              ""
+            ],
+            "type": "text/javascript",
+            "packages": {},
+            "requests": {}
+          }
+        }
+      ],
+      "request": {
+        "auth": {
+          "type": "basic",
+          "basic": [
+            {
+              "key": "username",
+              "value": "iluma_development_FX4f0M5sxDgk5qFyZnk60ZengAfA9o31x3ecd29vihjc4VhyJ8FclZhHjjw",
+              "type": "string"
+            }
+          ]
+        },
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "https://api.iluma.ai/v1.1/identity/bank_account_data_requests/bknv_6a2d83202471702471a8eee5",
+          "protocol": "https",
+          "host": [
+            "api",
+            "iluma",
+            "ai"
+          ],
+          "path": [
+            "v1.1",
+            "identity",
+            "bank_account_data_requests",
+            "bknv_6a2d83202471702471a8eee5"
+          ]
+        }
+      },
+      "response": []
+    }
+  ]
+}
