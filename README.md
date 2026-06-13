@@ -1,13 +1,9 @@
 ini relearning lagi dan semoga ilmunya berkah
 
-### tambah file/folder
-`git add .` 
+# Informasi
 
-or 
-
-`git add [specific file/folder]`
-
-### commit
-
-`git commit -m "[pesan]"`
+Branch main -> PDF tugas multi sesi
+Branch sesi2 -> PDF tugas sesi 2
+Branch sesi3 -> PDF tugas sesi 3
+Branch sesi4 -> PDF tugas sesi 4
 
