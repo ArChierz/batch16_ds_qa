@@ -1,0 +1,126 @@
+{
+  "stats": {
+    "suites": 3,
+    "tests": 6,
+    "passes": 6,
+    "pending": 0,
+    "failures": 0,
+    "start": "2026-06-15T17:18:59.998Z",
+    "end": "2026-06-15T17:19:00.632Z",
+    "duration": 634
+  },
+  "tests": [
+    {
+      "title": "Should return 200 OK",
+      "fullTitle": "Reqres API - User Management GET /api/users Should return 200 OK",
+      "file": "C:\\Zidan\\Quality Assurance\\Digital Skola\\Program\\automation\\batch16_ds_qa\\sesi7\\tests\\api\\reqres.test.js",
+      "duration": 1,
+      "currentRetry": 0,
+      "speed": "fast",
+      "err": {}
+    },
+    {
+      "title": "Should return valid User Data",
+      "fullTitle": "Reqres API - User Management GET /api/users Should return valid User Data",
+      "file": "C:\\Zidan\\Quality Assurance\\Digital Skola\\Program\\automation\\batch16_ds_qa\\sesi7\\tests\\api\\reqres.test.js",
+      "duration": 0,
+      "currentRetry": 0,
+      "speed": "fast",
+      "err": {}
+    },
+    {
+      "title": "Should return valid JSON Schema",
+      "fullTitle": "Reqres API - User Management GET /api/users Should return valid JSON Schema",
+      "file": "C:\\Zidan\\Quality Assurance\\Digital Skola\\Program\\automation\\batch16_ds_qa\\sesi7\\tests\\api\\reqres.test.js",
+      "duration": 20,
+      "currentRetry": 0,
+      "speed": "fast",
+      "err": {}
+    },
+    {
+      "title": "Should return 200 OK and logged in",
+      "fullTitle": "Reqres API - User Management POST /api/login Should return 200 OK and logged in",
+      "file": "C:\\Zidan\\Quality Assurance\\Digital Skola\\Program\\automation\\batch16_ds_qa\\sesi7\\tests\\api\\reqres.test.js",
+      "duration": 0,
+      "currentRetry": 0,
+      "speed": "fast",
+      "err": {}
+    },
+    {
+      "title": "Should return valid Data",
+      "fullTitle": "Reqres API - User Management POST /api/login Should return valid Data",
+      "file": "C:\\Zidan\\Quality Assurance\\Digital Skola\\Program\\automation\\batch16_ds_qa\\sesi7\\tests\\api\\reqres.test.js",
+      "duration": 0,
+      "currentRetry": 0,
+      "speed": "fast",
+      "err": {}
+    },
+    {
+      "title": "Should return valid JSON Schema",
+      "fullTitle": "Reqres API - User Management POST /api/login Should return valid JSON Schema",
+      "file": "C:\\Zidan\\Quality Assurance\\Digital Skola\\Program\\automation\\batch16_ds_qa\\sesi7\\tests\\api\\reqres.test.js",
+      "duration": 11,
+      "currentRetry": 0,
+      "speed": "fast",
+      "err": {}
+    }
+  ],
+  "pending": [],
+  "failures": [],
+  "passes": [
+    {
+      "title": "Should return 200 OK",
+      "fullTitle": "Reqres API - User Management GET /api/users Should return 200 OK",
+      "file": "C:\\Zidan\\Quality Assurance\\Digital Skola\\Program\\automation\\batch16_ds_qa\\sesi7\\tests\\api\\reqres.test.js",
+      "duration": 1,
+      "currentRetry": 0,
+      "speed": "fast",
+      "err": {}
+    },
+    {
+      "title": "Should return valid User Data",
+      "fullTitle": "Reqres API - User Management GET /api/users Should return valid User Data",
+      "file": "C:\\Zidan\\Quality Assurance\\Digital Skola\\Program\\automation\\batch16_ds_qa\\sesi7\\tests\\api\\reqres.test.js",
+      "duration": 0,
+      "currentRetry": 0,
+      "speed": "fast",
+      "err": {}
+    },
+    {
+      "title": "Should return valid JSON Schema",
+      "fullTitle": "Reqres API - User Management GET /api/users Should return valid JSON Schema",
+      "file": "C:\\Zidan\\Quality Assurance\\Digital Skola\\Program\\automation\\batch16_ds_qa\\sesi7\\tests\\api\\reqres.test.js",
+      "duration": 20,
+      "currentRetry": 0,
+      "speed": "fast",
+      "err": {}
+    },
+    {
+      "title": "Should return 200 OK and logged in",
+      "fullTitle": "Reqres API - User Management POST /api/login Should return 200 OK and logged in",
+      "file": "C:\\Zidan\\Quality Assurance\\Digital Skola\\Program\\automation\\batch16_ds_qa\\sesi7\\tests\\api\\reqres.test.js",
+      "duration": 0,
+      "currentRetry": 0,
+      "speed": "fast",
+      "err": {}
+    },
+    {
+      "title": "Should return valid Data",
+      "fullTitle": "Reqres API - User Management POST /api/login Should return valid Data",
+      "file": "C:\\Zidan\\Quality Assurance\\Digital Skola\\Program\\automation\\batch16_ds_qa\\sesi7\\tests\\api\\reqres.test.js",
+      "duration": 0,
+      "currentRetry": 0,
+      "speed": "fast",
+      "err": {}
+    },
+    {
+      "title": "Should return valid JSON Schema",
+      "fullTitle": "Reqres API - User Management POST /api/login Should return valid JSON Schema",
+      "file": "C:\\Zidan\\Quality Assurance\\Digital Skola\\Program\\automation\\batch16_ds_qa\\sesi7\\tests\\api\\reqres.test.js",
+      "duration": 11,
+      "currentRetry": 0,
+      "speed": "fast",
+      "err": {}
+    }
+  ]
+}
